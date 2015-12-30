@@ -1,10 +1,9 @@
 ﻿using System;
 using Windows.Foundation;
-using Windows.UI;
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Shapes;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Shapes;
 
 namespace MyHealth.Client.W10.UWP.Controls
 {
@@ -14,7 +13,7 @@ namespace MyHealth.Client.W10.UWP.Controls
 
         public static readonly DependencyProperty StrokeThicknessProperty = DependencyProperty.Register("StrokeThickness", typeof(int), typeof(CircularProgressBar), new PropertyMetadata(5));
 
-        public static readonly DependencyProperty SegmentColorProperty = DependencyProperty.Register("SegmentColor", typeof(GradientBrush), typeof(CircularProgressBar), new PropertyMetadata(new SolidColorBrush(Colors.Red)));
+        public static readonly DependencyProperty SegmentColorProperty = DependencyProperty.Register("SegmentColor", typeof(GradientBrush), typeof(CircularProgressBar), new PropertyMetadata(new LinearGradientBrush()));
 
         public static readonly DependencyProperty RadiusProperty = DependencyProperty.Register("Radius", typeof(int), typeof(CircularProgressBar), new PropertyMetadata(25, new PropertyChangedCallback(OnPropertyChanged)));
 

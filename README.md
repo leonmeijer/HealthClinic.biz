@@ -1,7 +1,8 @@
 # HealthClinic.biz #
-The samples contained in this repo are used to present an end-to-end demo scenario based on a fictitious B2B and multitenant system, named “HealthClinic.biz” that provides different websites, mobile apps, wearable apps, and services running on the latest Microsoft and open technologies aligned with announcements to showcase during the Connect(); 2015 event.
 
-The current published version works with Visual Studio 2015 Update 1 RC bits and ASP.NET 5.0 Beta 8. The final version used at Connect(); 2015 will be published soon.
+During Connect(); //2015 we showcased many technologies available to you as a developer across Azure, Office, Windows, Visual Studio and Visual Studio Team Services. We’ve also heard from you that you love to have real-world applications through which you can directly experience what’s possible using those technologies. This year, then, we built out a full health and technology scenario for our Connect(); //2015 demos and are delighted to share all the source code with you.
+
+HealthClinic.biz is a fictitious regular doctor practice specialized in offering healthcare preventive care. This clinic is using different Microsoft and multi-channel apps built with Visual Studio 2015 to grow their business and modernize their customer experience. They also innovate and offer multiple apps and services—including websites, mobile apps, and wearable apps—to empower their patient’s well-being with easy access to manage their healthcare data and stay healthy.
 
 # Licenses #
 This project uses some third-party assets with a license that requires attribution:
@@ -10,3 +11,19 @@ This project uses some third-party assets with a license that requires attributi
  - **Raleway Font**: by Matt McInerney, Pablo Impallari, Rodrigo Fuenzalida and by Igino Marini  ([Raleway at Google Fonts](https://www.google.com/fonts/specimen/Raleway))
 
 For extra information about licenses, you can see it at the dependency repositories.
+
+# Prerequisites #
+
+ - Windows 10
+ - Visual Studio 2015 Update 1 (make sure you install UWP Development tools, Cross Platform Mobile Development, and Office Developer Tools).
+ - [Xamarin for Visual Studio](https://xamarin.com/visual-studio)
+ - [Microsoft Azure SDK](http://go.microsoft.com/fwlink/?LinkId=617168) for Visual Studio 2015
+ - Microsoft Office 2016
+ - Bing Maps Key - [Getting a Bing Maps Key](https://msdn.microsoft.com/en-us/library/ff428642.aspx)
+ - Microsoft [Azure subscription](https://azure.com/)
+
+# Blogs posts #
+Here's links to blog posts related to this project:
+
+ - [Connect(“demos”); // 2015: HealthClinic.biz](http://blogs.msdn.com/b/visualstudio/archive/2015/12/08/connect-demos-2015-healthclinic-biz.aspx) by Erika Ehrli
+ - [ASP.NET 5 and .NET Core RC1 in context Plus all the Connect 2015 News](http://www.hanselman.com/blog/ASPNET5AndNETCoreRC1InContextPlusAllTheConnect2015News.aspx) by Scott Hanselman
